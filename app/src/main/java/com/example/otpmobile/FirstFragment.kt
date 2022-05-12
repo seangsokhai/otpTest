@@ -10,18 +10,11 @@ import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.otpmobile.databinding.FragmentFirstBinding
-import com.google.firebase.FirebaseException
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.PhoneAuthCredential
-import com.google.firebase.auth.PhoneAuthOptions
-import com.google.firebase.auth.PhoneAuthProvider
-import com.google.firebase.auth.PhoneAuthProvider.ForceResendingToken
-import com.google.firebase.auth.PhoneAuthProvider.OnVerificationStateChangedCallbacks
-import java.util.concurrent.TimeUnit
+
 
 
 class FirstFragment : Fragment() {
-    private val mAuth: FirebaseAuth = FirebaseAuth.getInstance()
+
     private var _binding: FragmentFirstBinding? = null
     private val binding get() = _binding!!
 
