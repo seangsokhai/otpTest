@@ -63,7 +63,7 @@ class SecondFragment : Fragment() {
                     val i = Intent(context, SecondFragment::class.java)
                     startActivity(i)
                 } else {
-                    // if the code is not correct then we are
+                    // if the code is not correct then we are ddd
                     // displaying an error message to the user.
                     Toast.makeText(context, task.exception!!.message, Toast.LENGTH_LONG)
                         .show()
