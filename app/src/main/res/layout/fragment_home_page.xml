@@ -81,32 +81,43 @@ android:background="@color/white"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         >
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="160sp"
-            android:src="@drawable/bg_mall" />
-        <LinearLayout
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="99dp"
-            android:layout_width="match_parent"
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_item"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <TextView
-                android:layout_width="wrap_content"
+            android:layout_width="match_parent"
+            app:cardElevation="3sp"
+            app:cardCornerRadius="15sp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="160sp"
+                android:src="@drawable/mall1"
+                />
+            <LinearLayout
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="99dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="AEON MALL"
-                android:textColor="@color/pink"
-                android:textSize="17sp"
-                android:textStyle="bold" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Phnom Penh"
-                android:textColor="@color/pink"
-                android:textSize="17sp"
-                android:textStyle="bold" />
-        </LinearLayout>
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AEON MALL"
+                    android:textColor="@color/pink"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phnom Penh"
+                    android:textColor="@color/pink"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
 
     </FrameLayout>
     <FrameLayout

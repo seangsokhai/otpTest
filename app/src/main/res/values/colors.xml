@@ -10,5 +10,10 @@
     <color name="grey">#F6F6F6</color>
     <color name="pink">#B60081</color>
     <color name="greyDark">#767676</color>
+    <color name="greyLight">#DFDFDF</color>
+    <color name="bodyColor">#909090</color>
+    <color name="bg_icon">#EEEEEE</color>
+    <color name="F2">#F2F2F2</color>
+
 
 </resources>

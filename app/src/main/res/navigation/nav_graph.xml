@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/bannerPage">
 
     <fragment
         android:id="@+id/FirstFragment"
@@ -31,4 +31,13 @@
         android:name="com.example.otpmobile.HomePage"
         android:label="fragment_home_page"
         tools:layout="@layout/fragment_home_page" />
+    <fragment
+        android:id="@+id/bannerPage"
+        android:name="com.example.otpmobile.BannerPage"
+        android:label="fragment_banner_page"
+        tools:layout="@layout/fragment_banner_page" >
+        <action
+            android:id="@+id/action_bannerPage_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
 </navigation>
