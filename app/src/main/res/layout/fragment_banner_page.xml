@@ -19,9 +19,39 @@
             android:id="@+id/viewpager"
             android:layout_width="match_parent"
             android:layout_height="489dp"
-            android:layout_centerInParent="true"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="22sp"
+            android:background="@drawable/bg_arrowback"
+            android:paddingLeft="10sp"
+            android:scaleType="centerInside"
+            android:src="@drawable/arrow_back" />
+        <Button
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="22sp"
+            android:layout_marginEnd="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B3000000"
+            android:gravity="center"
+            android:text="Skip >"   />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_gadient"
+            android:padding="10sp" />
+
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,6 +81,7 @@
                 android:layout_centerHorizontal="true"
                 />
         </LinearLayout>
+
     </RelativeLayout>
     <TextView
         android:id="@+id/welcome_txt_onboard"

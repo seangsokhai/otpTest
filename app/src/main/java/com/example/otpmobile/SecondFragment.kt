@@ -9,8 +9,6 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.otpmobile.databinding.FragmentSecondBinding
 
-
-
 class SecondFragment : Fragment() {
     private val args: SecondFragmentArgs by navArgs()
     private var _binding: FragmentSecondBinding? = null
