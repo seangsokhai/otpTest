@@ -1,4 +1,4 @@
-package com.example.otpmobile
+package com.example.otpmobile.view
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -9,6 +9,7 @@ import android.widget.Toast
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.example.otpmobile.R
 import com.example.otpmobile.databinding.FragmentFirstBinding
 
 
@@ -43,7 +44,8 @@ class FirstFragment : Fragment() {
                 ).show()
             } else {
                 val phone = "+855" + edtPhone.text.toString()
-                findNavController().navigate(R.id.action_FirstFragment_to_secondFragment, bundleOf(
+                findNavController().navigate(
+                    R.id.action_FirstFragment_to_secondFragment, bundleOf(
                     "phone" to phone
                 ))
             }

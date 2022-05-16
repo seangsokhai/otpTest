@@ -1,4 +1,4 @@
-package com.example.otpmobile
+package com.example.otpmobile.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.viewpager2.widget.ViewPager2
+import com.example.otpmobile.R
 import com.example.otpmobile.adaptor.ViewPagerAdaptor
 import com.example.otpmobile.databinding.FragmentBannerPageBinding
 import com.example.otpmobile.ulti.ImageLists

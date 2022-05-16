@@ -1,4 +1,4 @@
-package com.example.otpmobile
+package com.example.otpmobile.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
+import com.example.otpmobile.R
 import com.example.otpmobile.databinding.FragmentSecondBinding
 
 class SecondFragment : Fragment() {
