@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_tap_graph"
+    app:startDestination="@id/homePage">
+
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.example.otpmobile.view.ui.HomePage"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/action_homePage_to_categoryPage"
+            app:destination="@id/categoryPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/profilePage"
+        android:name="com.example.otpmobile.view.ui.ProfilePage"
+        android:label="fragment_profile_page"
+        tools:layout="@layout/fragment_profile_page" />
+    <fragment
+        android:id="@+id/categoryPage"
+        android:name="com.example.otpmobile.view.ui.CategoryPage"
+        android:label="fragment_category_page"
+        tools:layout="@layout/fragment_category_page" >
+        <action
+            android:id="@+id/action_categoryPage_to_brandPage"
+            app:destination="@id/brandPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/brandPage"
+        android:name="com.example.otpmobile.view.ui.BrandPage"
+        android:label="fragment_brand_page"
+        tools:layout="@layout/fragment_brand_page" >
+        <action
+            android:id="@+id/action_brandPage_to_notificationPage"
+            app:destination="@id/notificationPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationPage"
+        android:name="com.example.otpmobile.view.ui.NotificationPage"
+        android:label="fragment_notification_page"
+        tools:layout="@layout/fragment_notification_page" >
+        <action
+            android:id="@+id/action_notificationPage_to_profilePage"
+            app:destination="@id/profilePage" />
+    </fragment>
+</navigation>

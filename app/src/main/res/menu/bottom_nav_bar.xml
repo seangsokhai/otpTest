@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homePage"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        />
+    <item android:id="@+id/categoryPage"
+        android:icon="@drawable/ic_category"
+        android:title="Category"/>
+    <item android:id="@+id/brandPage"
+        android:icon="@drawable/ic_brand"
+        android:title="Brand"/>
+    <item android:id="@+id/notificationPage"
+        android:icon="@drawable/ic_notifications"
+        android:title="Notification"/>
+    <item android:id="@+id/profilePage"
+        android:icon="@drawable/ic_person"
+        android:title="Profile"/>
+
+</menu>

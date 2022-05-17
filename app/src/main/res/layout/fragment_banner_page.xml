@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.BannerPage"
+    tools:context=".view.onBoardpage.BannerPage"
     android:background="@color/F2"
     >
     <RelativeLayout
         android:id="@+id/frame_viewPager"
         android:layout_width="match_parent"
-        android:layout_height="489dp"
+        android:layout_height="459dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         >

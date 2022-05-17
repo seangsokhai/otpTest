@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.example.otpmobile.view.FirstFragment"
+        android:name="com.example.otpmobile.view.onBoardpage.FirstFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first">
         <action
@@ -16,28 +16,31 @@
     </fragment>
     <fragment
         android:id="@+id/secondFragment"
-        android:name="com.example.otpmobile.view.SecondFragment"
+        android:name="com.example.otpmobile.view.onBoardpage.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" >
-        <action
-            android:id="@+id/action_secondFragment_to_homePage"
-            app:destination="@id/homePage" />
         <argument
             android:name="phone"
             app:argType="string" />
+        <argument
+            android:name="storedVerificationId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_secondFragment_to_mallSelectPage"
+            app:destination="@id/mallSelectPage" />
     </fragment>
     <fragment
-        android:id="@+id/homePage"
-        android:name="com.example.otpmobile.view.HomePage"
-        android:label="fragment_home_page"
-        tools:layout="@layout/fragment_home_page" />
-    <fragment
         android:id="@+id/bannerPage"
-        android:name="com.example.otpmobile.view.BannerPage"
+        android:name="com.example.otpmobile.view.onBoardpage.BannerPage"
         android:label="fragment_banner_page"
         tools:layout="@layout/fragment_banner_page" >
         <action
             android:id="@+id/action_bannerPage_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/mallSelectPage"
+        android:name="com.example.otpmobile.view.onBoardpage.MallSelectPage"
+        android:label="fragment_mall_select_page"
+        tools:layout="@layout/fragment_mall_select_page" />
 </navigation>

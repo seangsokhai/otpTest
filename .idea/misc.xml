@@ -10,6 +10,7 @@
         <entry key="app/src/main/res/drawable/bg_icon.xml" value="0.1735" />
         <entry key="app/src/main/res/drawable/bg_mall.xml" value="0.281" />
         <entry key="app/src/main/res/drawable/bg_textinput.xml" value="0.1575" />
+        <entry key="app/src/main/res/drawable/homeselector.xml" value="0.239" />
         <entry key="app/src/main/res/drawable/ic__652100990hockey_player_silhouette_low_poly.xml" value="0.1465" />
         <entry key="app/src/main/res/drawable/ic__d3227740d5d64067d58f85c9ba1cc4c__1_.xml" value="0.1925" />
         <entry key="app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.281" />
@@ -18,15 +19,21 @@
         <entry key="app/src/main/res/drawable/ic_mitchell_luo_8g_45f79izy_unsplash.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/splash_image.xml" value="0.1925" />
         <entry key="app/src/main/res/font/fonts.xml" value="0.3212962962962963" />
+        <entry key="app/src/main/res/layout/activity2_main.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.16" />
-        <entry key="app/src/main/res/layout/content_main.xml" value="0.315625" />
+        <entry key="app/src/main/res/layout/activity_main_tab.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/content_onboading.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_banner_page.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_category_page.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.16" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.22552083333333334" />
         <entry key="app/src/main/res/layout/fragment_home_page.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_mall_select_page.xml" value="0.2265625" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_splash_screen.xml" value="0.4036458333333333" />
         <entry key="app/src/main/res/layout/image_viewpager_item.xml" value="0.18" />
+        <entry key="app/src/main/res/menu/bottom_nav_bar.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/menu/menu_main.xml" value="0.315625" />
       </map>
     </option>
