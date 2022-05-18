@@ -12,6 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OtpMobile">
         <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.OtpMobile.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
@@ -23,7 +33,7 @@
         </activity>
 
         <activity
-            android:name=".Main2Activity"
+            android:name=".MainTapActivity"
             android:exported="true"
             android:theme="@style/Theme.OtpMobile.NoActionBar">
             <intent-filter>

@@ -6,9 +6,10 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
 import com.example.otpmobile.databinding.ActivityMainTabBinding
+import com.example.otpmobile.databinding.ActivitySplashScreenBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-class Main2Activity : AppCompatActivity() {
+class MainTapActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainTabBinding
 

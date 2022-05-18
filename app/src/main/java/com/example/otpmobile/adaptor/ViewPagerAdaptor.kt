@@ -8,6 +8,7 @@ import com.example.otpmobile.model.local.ImageSlider
 
 class ViewPagerAdaptor(private val bannerList: List<ImageSlider>) : RecyclerView.Adapter<ViewPagerAdaptor.ViewPagerViewHolder>(){
     inner class ViewPagerViewHolder(private val binding: ImageViewpagerItemBinding) : RecyclerView.ViewHolder(binding.root){
+
         fun bindItem(image: ImageSlider){
             binding.imageBannerTv.setImageResource(image.image)
 

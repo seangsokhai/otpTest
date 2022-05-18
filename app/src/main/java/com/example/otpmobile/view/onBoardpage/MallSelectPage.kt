@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.otpmobile.Main2Activity
+import com.example.otpmobile.MainTapActivity
 import com.example.otpmobile.databinding.FragmentMallSelectPageBinding
 import com.google.firebase.auth.FirebaseAuth
 
@@ -41,15 +41,15 @@ class MallSelectPage : Fragment() {
             requireActivity().onBackPressed()
         }
         binding.cardMall1.setOnClickListener{
-            val i = Intent(context, Main2Activity::class.java)
+            val i = Intent(context, MainTapActivity::class.java)
             requireActivity().startActivity(i)
         }
         binding.cardMall2.setOnClickListener{
-            val i = Intent(context, Main2Activity::class.java)
+            val i = Intent(context, MainTapActivity::class.java)
             requireActivity().startActivity(i)
         }
         binding.cardMall3.setOnClickListener{
-            val i = Intent(context, Main2Activity::class.java)
+            val i = Intent(context, MainTapActivity::class.java)
             requireActivity().startActivity(i)
         }
 
