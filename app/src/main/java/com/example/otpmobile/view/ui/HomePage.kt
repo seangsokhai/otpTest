@@ -5,7 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.viewpager2.widget.ViewPager2
+import com.example.otpmobile.adaptor.StoreAdaptor
 import com.example.otpmobile.adaptor.ViewPagerAdaptor
 import com.example.otpmobile.databinding.FragmentHomePageBinding
 import com.example.otpmobile.ulti.ImageLists
@@ -27,6 +29,11 @@ class HomePage : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setupViewPager()
+        val adaptor = StoreAdaptor(getItems())
+        val recyclerView = binding.recyclerViewStore
+        recyclerView.layoutManager =
+            LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL,false)
+        recyclerView.adapter = adaptor
     }
 
     private fun setupViewPager(){
@@ -37,5 +44,11 @@ class HomePage : Fragment() {
 
     }
 
-
+    private fun getItems() : ArrayList<String> {
+        val list: ArrayList<String> = ArrayList()
+        for (i in 1..10){
+            list.add("Items $i")
+        }
+        return list
+    }
 }

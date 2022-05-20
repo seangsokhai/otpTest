@@ -2,20 +2,20 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/homePage"
-        android:icon="@drawable/ic_home"
+        android:icon="@drawable/ic_home_icon"
         android:title="Home"
         />
     <item android:id="@+id/categoryPage"
-        android:icon="@drawable/ic_category"
+        android:icon="@drawable/ic_category_icon"
         android:title="Category"/>
     <item android:id="@+id/brandPage"
-        android:icon="@drawable/ic_brand"
-        android:title="Brand"/>
+        android:icon="@drawable/ic_brand_icon"
+        android:title="Brands"/>
     <item android:id="@+id/notificationPage"
-        android:icon="@drawable/ic_notifications"
+        android:icon="@drawable/ic_notification_icon"
         android:title="Notification"/>
     <item android:id="@+id/profilePage"
-        android:icon="@drawable/ic_person"
+        android:icon="@drawable/ic_profile_icon"
         android:title="Profile"/>
 
 </menu>

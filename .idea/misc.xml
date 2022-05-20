@@ -16,10 +16,17 @@
         <entry key="app/src/main/res/drawable/ic__d3227740d5d64067d58f85c9ba1cc4c__1_.xml" value="0.1925" />
         <entry key="app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.281" />
         <entry key="app/src/main/res/drawable/ic_brand.xml" value="0.2775" />
+        <entry key="app/src/main/res/drawable/ic_brand_icon.xml" value="0.1595" />
+        <entry key="app/src/main/res/drawable/ic_category_icon.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_facebook.xml" value="0.1735" />
         <entry key="app/src/main/res/drawable/ic_home.xml" value="0.2815" />
+        <entry key="app/src/main/res/drawable/ic_home_icon.xml" value="0.1595" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.281" />
         <entry key="app/src/main/res/drawable/ic_mitchell_luo_8g_45f79izy_unsplash.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_more_horiz.xml" value="0.1595" />
+        <entry key="app/src/main/res/drawable/ic_notification_icon.xml" value="0.1595" />
+        <entry key="app/src/main/res/drawable/ic_profile_icon.xml" value="0.1595" />
+        <entry key="app/src/main/res/drawable/ic_voucher.xml" value="0.1595" />
         <entry key="app/src/main/res/drawable/splash_image.xml" value="0.1925" />
         <entry key="app/src/main/res/font/circular.xml" value="0.25833333333333336" />
         <entry key="app/src/main/res/font/font.xml" value="0.5212962962962963" />
@@ -31,18 +38,19 @@
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.33" />
         <entry key="app/src/main/res/layout/content_onboading.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_banner_page.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_banner_page.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_brand_page.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/fragment_category_page.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.16" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.22552083333333334" />
-        <entry key="app/src/main/res/layout/fragment_home_page.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_home_page.xml" value="0.21" />
         <entry key="app/src/main/res/layout/fragment_mall_select_page.xml" value="0.2265625" />
         <entry key="app/src/main/res/layout/fragment_notification_page.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/fragment_profile_page.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_splash_screen.xml" value="0.4036458333333333" />
         <entry key="app/src/main/res/layout/image_viewpager_item.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/store_elememts.xml" value="0.1" />
         <entry key="app/src/main/res/menu/bottom_nav_bar.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/menu/menu_main.xml" value="0.315625" />
       </map>
